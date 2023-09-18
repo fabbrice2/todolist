@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgb(91, 201, 91),  rgb(64, 64, 159));
+    color: white;
+}
+.listitem{
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding: 7px 25px;
+    background: rgb(245, 242, 242);
+}
+.presenttask{
+    padding: 5px;
+    background: rgb(64, 64, 159);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+}
+.number{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 100%;
+    color: rgb(64, 64, 159);
+}
+.deletenumber{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 100%;
+    color: red;
+}
+.taskdelete{
+    padding: 5px;
+    background: rgb(197, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+}
+.body{
+    padding: 25px 25px;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.taskitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.taskitem:hover{
+    background: rgb(241, 237, 237);
+}
+.taskitem ul{
+    display: flex;
+    gap: 10px;
+}
+.taskitem ul li{
+    font-weight: 800;
+    
+}
+.checkicon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 100%;
+    background: gray;
+}
+.deleteicon{
+    color: red;
+}
+.addtask{
+    padding: 7px 25px;
+    background: rgb(245, 242, 242);
+
+
+}
+.addtaskbutton{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border: 1px solid rgb(64, 64, 159);
+    border-radius: 25px;
+    padding: 7px;
+    background: white;
+}
+.input{
+    flex: 1;
+    border: none;
+}
+button{
+    background: white;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 100%;
+    background: rgb(64, 64, 159);
+}
+.mask{
+    display: none;
+}
